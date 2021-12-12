@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Navbody{
+    width: 100vw;
+    height: 12vh;
+    position: fixed;
+    top: 0em;
+    display: flex;
+    /* border: 2px solid #45A29E; */
+    
+    
+
+box-shadow:  3px 3px 9px #45A29E,
+             -3px -3px 9px #ffffff;
+}
+
+a{
+    text-decoration: none;
+}
+
+.Icon{
+    width: 100%;
+    margin-left: 5rem;
+    margin-top: 16px;
+}
+.Links{
+width: 100%;
+margin-right: 10rem;
+margin-top: 20px;
+display: flex;
+justify-content: space-between;
+font-size: 1.4rem;
+
+}
+.Links a{
+    color:white;
+}
+
+
+
+.h1{
+    color: #C5C6C7;
+}
