@@ -1,9 +1,22 @@
 import './Navbar.css'
+import {useState} from 'react';
 
 
 const Navbar = () => {
+
+  const [navColour, updateNavbar] = useState(false);
+
+  function scrollHandler() {
+    if (window.scrollY >= 20) {
+      updateNavbar(true);
+    } else {
+      updateNavbar(false);
+    }
+  }
+
+  window.addEventListener("scroll", scrollHandler);
     return (
-      <div className='Navbody'>
+      <div   className={navColour ? "sticky Navbody" : "navbar Navbody"}>
         <div className="Icon">
           <h1 className="h1">Adarsh</h1>
           </div>

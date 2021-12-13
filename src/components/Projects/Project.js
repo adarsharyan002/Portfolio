@@ -3,7 +3,7 @@ import './Projects.css'
 
  const Project = () => {
     return (
-        <div className="container-project">
+        <div className="container-project" id="Projects">
           <h1 className='Title title2'>Projects</h1>
           {Projects.map((project)=>{
             return(
