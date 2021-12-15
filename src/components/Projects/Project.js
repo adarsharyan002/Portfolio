@@ -17,8 +17,8 @@ import './Projects.css'
                   <p>{project.Description}</p>
 
                   <div className='Buttons'>
-                    <button className='button-1'>Code</button>
-                    <button className="button-2">Live</button>
+                   <a href={project.url}><button className='button-1'>Live</button></a> 
+                   <a href={project.code}><button className="button-2">Code</button></a> 
                   </div>
 
                 </div>
