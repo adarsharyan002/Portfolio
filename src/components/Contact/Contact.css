@@ -2,10 +2,17 @@
     text-align: center;
 }
 
-.Links-icon svg{
-    width: 5rem;
-    height: 3rem;
-    color: whitesmoke;
-    margin-top: 20px;
+/* .Links-icon{
+    display: flex;
+    justify-content: center;
+} */
+
+.icon-btn12{
+    height: 60px;
+    width: 60px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow:0 10px 10px rgba(0,0,0,0.1) ;
 
 }

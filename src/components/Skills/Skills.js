@@ -1,4 +1,6 @@
-
+import {Data} from './Icons'
+import React from 'react'
+import './Skills.css' ;
 
 const Skills = () => {
     return (
@@ -7,6 +9,8 @@ const Skills = () => {
             <h1 className="Title">Skills
        
             </h1>
+            <div className='skill-icons'>{Data.map(language=> language.icon && React.createElement(language.icon,language.options))}</div>
+            
           
         </div>
       );

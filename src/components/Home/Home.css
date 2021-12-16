@@ -3,9 +3,13 @@
 .Container-home{
    
     display: flex;
-    margin-top: 8rem;
+    margin-top: 8rem ;
    
     
+}
+
+.Tilt{
+    margin-right:10rem ;
 }
 
 .right-box{

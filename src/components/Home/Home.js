@@ -1,5 +1,6 @@
 import './Home.css'
 import Cv from '../../assets/Cv.txt';
+import Tilt from 'react-tilt'
 
 import Image from  '../../assets/Image.jpg'
 const Home = () => {
@@ -11,10 +12,12 @@ const Home = () => {
             <h2>MERN Stack Developer</h2>
            <a href={Cv}  download="My-cv"><button>Download Cv</button></a> 
         </div>
-        <div className="right-box">
+       <Tilt className="Tilt" options={{max:20}}>
+           <div className="right-box">
           
 <img src={Image} alt="Pic" />
         </div>
+        </Tilt> 
     </div>
      );
 }

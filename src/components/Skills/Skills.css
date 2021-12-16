@@ -1,0 +1,21 @@
+.Container-skills{
+    margin: 5rem 10rem;
+
+}
+
+.skill-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+    margin: 5rem 12rem;
+}
+
+.skill-icons svg{
+    width: 50px;
+    margin: 15px;
+    height: auto;
+}
+
