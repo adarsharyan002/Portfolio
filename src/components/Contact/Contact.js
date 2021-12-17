@@ -13,15 +13,15 @@ const Contact = () => {
                 Contact Me
             </h1>
             <div className="Links-icon">
-                <div className="icon-btn12"> <a href="mailto:adarsharyanmuz@gmail.com"> <SiGmail/><h3>
-                    Mail</h3></a></div>
+            <a href="mailto:adarsharyanmuz@gmail.com">  <div className="icon-btn12">  <div className="Icon01"> <SiGmail  /></div><h3>
+                    Mail</h3></div> </a>
                
-               <div className="icon-btn12"><a href="https://www.facebook.com/adarsharyan00"> <SiFacebook/>
-               <h3>Facebook</h3></a></div> 
-               <div className="icon-btn12"> <a href="https://www.instagram.com/_adarsh_765/"> <SiInstagram/>
-               <h3>Instagram</h3></a></div>
-              <div className="icon-btn12">  <a href="https://www.linkedin.com/in/adarsh-aryan-364b78201/"> <SiLinkedin/>
-              <h3>Linkdn</h3></a></div>
+                    <a href="https://www.facebook.com/adarsharyan00">   <div className="icon-btn12"> <div className="Icon01"> <SiFacebook  /></div>
+               <h3>Facebook</h3></div> </a> 
+               <a href="https://www.instagram.com/_adarsh_765/">    <div className="icon-btn12">  <div className="Icon01"> <SiInstagram /></div>
+               <h3>Instagram</h3></div> </a>
+               <a href="https://www.linkedin.com/in/adarsh-aryan-364b78201/">     <div className="icon-btn12">  <div className="Icon01"> <SiLinkedin /></div>
+              <h3>Linkdn</h3></div> </a>
             </div >
         </div>
       );
