@@ -1,5 +1,6 @@
 import './Navbar.css'
 import {useState} from 'react';
+import SoundBar from './Sound';
 
 
 const Navbar = () => {
@@ -19,7 +20,10 @@ const Navbar = () => {
       <div   className={navColour ? "sticky Navbody" : "navbar Navbody"}>
         <div className="Icon">
           <h1 className="h1">Adarsh</h1>
+          <SoundBar className="Soundbar" />
+          
           </div>
+          
         
         <nav className='Links'>
           <a href="#Home">Home</a>

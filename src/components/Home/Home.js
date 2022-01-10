@@ -1,5 +1,5 @@
 import './Home.css'
-import Cv from '../../assets/Cv.txt';
+import Resume from '../../assets/Resume.pdf';
 import Tilt from 'react-tilt'
 import Slide from 'react-reveal/Slide';
 
@@ -18,7 +18,7 @@ const Home = () => {
             </Slide>
         
            
-           <a href={Cv}  download="My-cv"><button>Download Cv</button></a> 
+           <a href={Resume}  download="Resume"><button>Download Cv</button></a> 
         </div>
        <Tilt className="Tilt" options={{max:20}}>
            <div className="right-box">

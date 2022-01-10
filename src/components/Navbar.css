@@ -40,7 +40,10 @@ a{
     width: 100%;
     margin-left: 5rem;
     margin-top: 16px;
+	display: flex;
+	gap: 10px;
 }
+
 /* .Links{
 position: relative;
 width: 100%;
