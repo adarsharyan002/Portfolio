@@ -5,13 +5,15 @@ import{
     SiLinkedin,
 } from "react-icons/si";
 import './Contact.css'
+import Fade from 'react-reveal/Fade';
 
 const Contact = () => {
     return (
         <div className="container-contact" id="Contact">
-            <h1 className="Title">
+            <Fade top><h1 className="Title">
                 Contact Me
-            </h1>
+            </h1></Fade>
+            
             <div className="Links-icon">
             <a href="mailto:adarsharyanmuz@gmail.com">  <div className="icon-btn12">  <div className="Icon01"> <SiGmail  /></div><h3>
                     Mail</h3></div> </a>

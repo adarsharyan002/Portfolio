@@ -1,13 +1,33 @@
 import Projects from './Projects'
 import './Projects.css'
 
+import Slide from 'react-reveal/Slide';
+
+
+import { useEffect } from 'react';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
  const Project = () => {
+
+  useEffect(()=>{
+    AOS.init({duration:2000});
+
+  },[])
+  
+  
     return (
-        <div className="container-project" id="Projects">
-          <h1 className='Title title2'>Projects</h1>
+      
+        <div  className="container-project" id="Projects">
+           <h1 className='Title title2'> <Slide cascade left>Projects</Slide></h1>
+         
+         
           {Projects.map((project)=>{
             return(
-              <div className='single-project'>
+              <div data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000" className='single-project'>
 
                 <div className='image'>
                   <img src={project.image} alt="pic" />
