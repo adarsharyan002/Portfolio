@@ -25,7 +25,7 @@ import 'aos/dist/aos.css';
          
           {Projects.map((project)=>{
             return(
-              <div data-aos="flip-left"
+              <div key={project.Name} data-aos="flip-left"
               data-aos-easing="ease-out-cubic"
               data-aos-duration="2000" className='single-project'>
 
@@ -37,8 +37,8 @@ import 'aos/dist/aos.css';
                   <p>{project.Description}</p>
 
                   <div className='Buttons'>
-                   <a href={project.url}><button className='button-1'>Live</button></a> 
-                   <a href={project.code}><button className="button-2">Code</button></a> 
+                   <a href={project.url}><button className='button-1 button'>Live</button></a> 
+                   <a href={project.code}><button className="button-2 button">Code</button></a> 
                   </div>
 
                 </div>

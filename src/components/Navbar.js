@@ -31,7 +31,7 @@ const Navbar = () => {
           <a href="#Skills">Skills</a>
           <a href="#Projects">Projects</a>
           <a href="#Contact">Contact me</a>
-          <div class="animation start-home"></div>
+          <div className="animation start-home"></div>
         </nav>
       </div>
 

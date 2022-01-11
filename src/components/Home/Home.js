@@ -8,8 +8,8 @@ import Slide from 'react-reveal/Slide';
 import Image from  '../../assets/Image.jpg'
 const Home = () => {
     return ( 
-        
-        <div className="Container-home" id="Home">
+        <section id="Home">
+            <div className="Container-home" >
         <div className="left-box">
         <Slide left cascade >
         <h1 className='greeting'>Hi There!</h1>
@@ -26,7 +26,8 @@ const Home = () => {
 <img src={Image} alt="Pic" />
         </div>
         </Tilt> 
-    </div>
+    </div></section>
+        
      );
 }
  

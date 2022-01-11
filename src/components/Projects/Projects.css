@@ -86,3 +86,85 @@ box-shadow:  3px 3px 9px #45A29E,
 .button-1:hover{
     background: #45A29E;
 }
+
+@media (max-width:1250px) {
+
+    .image img{
+    
+    width: 90%;
+    height: 15rem;
+    margin: 8px 14px 0 10px;
+
+
+}
+.button-2{
+    margin-left: 7rem;
+}
+.project-contents {
+    
+    width: 50%;
+   
+    
+}
+}
+@media (max-width:1050px){
+    .project-contents h1{
+       font-size: 1.5rem;
+    }
+    .button{
+        width: 6rem;
+        height:2.5rem ;
+        font-size:0.7rem ;
+    }
+}
+
+@media (max-width:880px){
+    .single-project{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        margin: 3rem 7rem;
+    }
+    .image{
+        width: 100%;
+    }
+    .project-contents{
+        width: 100%;
+        margin: 0px ;
+       margin-bottom: 20px;
+    }
+}
+
+@media (max-width:700px){
+    .button-2{
+        margin-left: 5rem;
+    }
+
+    .single-project{
+        margin: 3rem 5rem;
+    }
+
+    
+    .title2{
+        margin:5rem 0;
+        align-self: center;
+        
+    }
+    .container-project{
+        text-align: center;
+    }
+
+
+} 
+
+@media (max-width:475px){
+    .single-project{
+        margin: 3rem 3rem;
+    }
+
+}
+
+
+
+
