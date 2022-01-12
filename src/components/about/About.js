@@ -12,7 +12,12 @@ const About = () => {
            About Me
         </Slide></h1>
 
-<Fade out> <p>I am a passionate Full Stack Developer who loves to explore new technologies and build scalable applications.Although I expertize in full-stack development, I prefer to work on the frontend of any application.
+<Fade out> <p>
+I'm a full-stack developer located in India. I love to explore new technologies and  create simple yet beautiful websites with great user experience.
+<br /> <br/>
+I'm more into front-end and  like trying new things and building great projects. 
+<br/> <br/>
+I believe everything is an Art when you put your consciousness in it. You can connect with me via social links.
 
 
 .</p></Fade>

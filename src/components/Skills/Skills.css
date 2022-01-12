@@ -19,3 +19,23 @@
     height: auto;
 }
 
+@media (max-width:1080px){
+    .skill-icons{
+        margin: 5rem 5rem;
+    }
+    .Container-skills{
+        margin: 5rem 7rem;
+    text-align: center;
+    }
+}
+
+@media (max-width:800px){
+    .skill-icons{
+        margin: 5rem 2rem;
+    }
+    .Container-skills{
+        margin: 5rem 2rem;
+    
+    }
+}
+

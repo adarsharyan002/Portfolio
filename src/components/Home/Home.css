@@ -58,14 +58,14 @@ box-shadow:  5px 5px 10px black,
 
 @media (max-width:1050px){
     .left-box h1{
-        font-size: 3em;
+        font-size: 3.5em;
     }
     .left-box h2{
-        font-size: 1.25em;
+        font-size: 1.5em;
     }
     .right-box img{
-        height: 12rem;
-        width: 20rem;
+        height: 14rem;
+        width: 23rem;
     }
     .left-box{
         text-align: center;
@@ -86,7 +86,7 @@ box-shadow:  5px 5px 10px black,
     background: #45A29E;
 }
 
-@media(max-width:880px){
+@media(max-width:970px){
 .Container-home{
     display: flex;
     flex-direction: column;
@@ -113,6 +113,21 @@ box-shadow:  5px 5px 10px black,
 }
 
 } 
+
+@media (max-width:550px){
+    .right-box img{
+        height: 15rem;
+        width: 22rem;
+    }
+    .left-box h1{
+        font-size: 4em;
+        margin-left: 0;
+    }
+    .left-box h2{
+        font-size: 2em;
+        margin-left: 0;
+    }
+}
 
 
 

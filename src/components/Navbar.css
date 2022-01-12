@@ -44,22 +44,10 @@ a{
 	gap: 10px;
 }
 
-/* .Links{
-position: relative;
-width: 100%;
-margin-right: 10rem;
-margin-top: 20px;
-display: flex;
-justify-content: space-between;
-font-size: 1.4rem;
-
-}
-.Links a{
-    color:white;
-} */
 
 
-nav{
+
+ul{
 	position: relative;
 	margin-right: 5rem;
     margin-top: 20px;
@@ -69,11 +57,12 @@ nav{
 	border-radius: 8px;
 	font-size: 0;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+	gap: 2rem;
 	/* box-shadow: 0 2px 3px 0 rgba(0,0,0,.1); */
 	transition: 0.5s;
 }
-nav a{
+ul a{
 	font-size: 15px;
 	text-transform: uppercase;
 	color: white;
@@ -81,11 +70,23 @@ nav a{
 	line-height: 50px;
 	position: relative;
 	z-index: 1;
-	/* display: inline-block; */
+	display: inline-block;
    
 	text-align: center;
 	
 }
+.checkbtn{
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+  }
+  #check{
+	display: none;
+  }
 
 
 
@@ -93,49 +94,120 @@ nav a{
     color: #C5C6C7;
 }
 
-nav .animation{
+ul .animation{
 	position: absolute;
-	/* height: 100%; */
+	
 	height: 5px;
-	/* top: 0; */
+	
 	bottom: 0;
 	z-index: 0;
 	background: #1abc9c;
 	border-radius: 8px;
 	transition: all .5s ease 0s;
 }
-nav a:nth-child(1){
+ul a:nth-child(1){
 	width: 100px;
 }
-nav .start-home, a:nth-child(1):hover~.animation{
+ul .start-home, a:nth-child(1):hover~.animation{
 	width: 100px;
 	left: 0;
 }
-nav a:nth-child(2){
+ul a:nth-child(2){
 	width: 110px;
 }
-nav a:nth-child(2):hover~.animation{
+ul a:nth-child(2):hover~.animation{
 	width: 110px;
 	left: 100px;
 }
-nav a:nth-child(3){
+ul a:nth-child(3){
 	width: 100px;
 }
-nav a:nth-child(3):hover~.animation{
+ul a:nth-child(3):hover~.animation{
 	width: 100px;
 	left: 210px;
 }
-nav a:nth-child(4){
+ul a:nth-child(4){
 	width: 160px;
 }
-nav a:nth-child(4):hover~.animation{
+ul a:nth-child(4):hover~.animation{
 	width: 160px;
 	left: 310px;
 }
-nav a:nth-child(5){
+ul a:nth-child(5){
 	width: 120px;
 }
-nav a:nth-child(5):hover~.animation{
+ul a:nth-child(5):hover~.animation{
 	width: 120px;
 	left: 470px;
 }
+
+/* @media(max-width:950px){
+	ul{
+	  gap: 0.8rem;
+	  width: 100%;
+	}
+} */
+@media (max-width: 950px){
+	.checkbtn{
+	  display: block;
+	  
+	}
+	ul{
+	  position: fixed;
+	  width: 70%;
+	  height: 100vh;
+	  
+
+	  background: black;
+	  top: 9.8vh;
+	  left: -100%;
+	  
+	  transition: all .5s;
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  text-align: center;
+	  z-index: 3;
+	  margin-right: 0;
+	  margin-top: 0;
+	}
+	 .li{
+	  display: block;
+	  margin: 25px 0;
+	  line-height: 30px;
+	}
+	
+	
+	#check:checked ~ ul{
+	  left: 0;
+  
+	}
+	ul .animation{
+		display: none;
+	}
+
+	
+	ul a:nth-child(1){
+		width: 100px;
+	}
+	
+	
+	ul a:nth-child(2){
+		width: 100px;
+	}
+	
+	ul a:nth-child(3){
+		width: 100px;
+	}
+	
+	ul a:nth-child(4){
+		width: 100px;
+	}
+	
+	ul a:nth-child(5){
+		width: 100px;
+	}
+	
+	
+	
+  }

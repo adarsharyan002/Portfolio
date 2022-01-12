@@ -1,6 +1,7 @@
 import './Navbar.css'
 import {useState} from 'react';
 import SoundBar from './Sound';
+import { FaBars } from "react-icons/fa";
 
 
 const Navbar = () => {
@@ -23,16 +24,23 @@ const Navbar = () => {
           <SoundBar className="Soundbar" />
           
           </div>
+
+          <input type="checkbox" id="check"/>
+      <label for="check" class="checkbtn">
+        <i style={{color:'white'}}class="fas fa-bars"><FaBars/></i>
+      </label>
           
         
-        <nav className='Links'>
-          <a href="#Home">Home</a>
-          <a href="#About">About</a>
-          <a href="#Skills">Skills</a>
-          <a href="#Projects">Projects</a>
-          <a href="#Contact">Contact me</a>
+        <ul className='Links ul'>
+         
+          <a className='li' href="#Home">Home</a>
+          <a className='li' href="#About">About</a>
+          <a className='li' href="#Skills">Skills</a>
+          <a className='li' href="#Projects">Projects</a>
+          <a className='li' href="#Contact">Contact </a>
           <div className="animation start-home"></div>
-        </nav>
+          
+        </ul>
       </div>
 
         
