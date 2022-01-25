@@ -22,7 +22,7 @@
     {
         Name:"Movie-Booking App",
         image:Movie,
-        Description:"It is a movie booking website made uisng TMDB Api",
+        Description:"It is a movie booking website made using TMDB Api",
         code:"https://github.com/adarsharyan002/Movie-booking-Front-end",
         url:"https://ecstatic-almeida-df2774.netlify.app/"
     }
