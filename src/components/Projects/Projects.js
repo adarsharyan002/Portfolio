@@ -1,4 +1,4 @@
- import React_blog from '../../assets/React_blog.png'
+ import Blog from '../../assets/Blog.png'
  import Chat_application from '../../assets/Chat_application.png'
  import Movie from '../../assets/Movie.png'
  
@@ -6,7 +6,7 @@
  const Projects =[
     {
         Name:"Blog-App",
-        image:React_blog,
+        image:Blog,
         Description:"A public platform to post your blog and learn new tech!",
         code:"https://github.com/adarsharyan002/React-blog-app",
         url:'https://react-blog-app-75ddd.web.app/'
