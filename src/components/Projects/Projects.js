@@ -1,9 +1,17 @@
  import Blog from '../../assets/Blog.png'
  import Chat_application from '../../assets/Chat_application.png'
  import Movie from '../../assets/Movie.png'
+ import Kolegia from '../../assets/Kolegia.png'
  
  
  const Projects =[
+     {
+         Name:"Kolegia",
+         image:Kolegia,
+         Description:'An intra college lost found, buy sell and posting requirements platform',
+         code:"https://github.com/adarsharyan002/Kolegia_FrontEnd",
+         url:"https://kolegia-c3c1d.web.app/"
+     },
     {
         Name:"Blog-App",
         image:Blog,
