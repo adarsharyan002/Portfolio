@@ -20,12 +20,12 @@ const Home = () => {
            
            <a href={Resume}  download="Resume"><button>Download Cv</button></a> 
         </div>
-       <Tilt className="Tilt" options={{max:20}}>
+       {/* <Tilt className="Tilt" options={{max:5}}> */}
            <div className="right-box">
           
 <img src={Image} alt="Pic" />
         </div>
-        </Tilt> 
+        {/* </Tilt>  */}
     </div></section>
         
      );

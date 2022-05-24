@@ -34,14 +34,14 @@
     margin-left: 10rem;
 }
 .right-box img{
-    width: 27rem;
-    height: 20rem;
-    margin-top: 10px;
+    width: 25rem;
+    height: 18rem;
+    margin-top: 20px;
     border: 2px solid #45A29E ;
-    border-radius: 25px;
+    border-radius: 5px;
 
-box-shadow:  5px 5px 10px black,
-             -5px -5px 10px black;
+/* box-shadow:  5px 5px 10px black,
+             -5px -5px 10px black; */
 }
 @media (max-width: 1250px) {
     .left-box h1{

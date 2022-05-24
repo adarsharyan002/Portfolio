@@ -23,9 +23,9 @@ import 'aos/dist/aos.css';
            <h1 className='Title title2'> <Slide cascade left>Projects</Slide></h1>
          
          
-          {Projects.map((project)=>{
+          {Projects.map((project,i)=>{
             return(
-              <div key={project.Name} data-aos="flip-left"
+              <div key={i} data-aos="flip-left"
               data-aos-easing="ease-out-cubic"
               data-aos-duration="2000" className='single-project'>
 
